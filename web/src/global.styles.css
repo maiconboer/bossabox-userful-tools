@@ -1,0 +1,74 @@
+:root {
+  --font-first: Helvetica, Arial, sans-serif;
+  --font-second: 'Spectral', Georgia;
+  --color-primary-bg: #244AA8;
+  --color-secondary-bg: #FFFFFF;
+  --color-primary-danger: #F95E5A;
+  --color-primary-button: #365DF0;
+  --color-primary-button-hover: #2F55CC;
+  --color-primary-text: #333333;
+  --color-secondary-text: #FFFFFF;
+  --color-input-hover: #9AAEF7;
+  --color-link: #2497B2;
+  --color-border: #F5F4F6;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  color: var(--color-primary-text);
+  font-family: var(--font-first);
+}
+
+.content {
+  flex: 1;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: var(--color-link);
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--font-first);
+  color: var(--color-primary-text);
+  box-sizing: border-box;
+}
+
+.modal-active {
+  background-color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.7);
+}
+
+.modal-active div {
+  border-color: rgba(0,0,0,0.7);
+}
+
+.modal-active div a {
+  color: rgba(0,0,0,0.7);
+}
