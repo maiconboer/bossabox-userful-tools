@@ -55,13 +55,6 @@ Utiliza as seguintes tecnologias:
   <li>Axios</li>
 </ul>
 
-**Front-end: Mobile**
-<ul>
-  <li>React-Native</li>
-  <li>Typescript</li>
-  <li>Axios</li>
-</ul>
-
 # :rocket: Funcionalidades
 
 * Aplicação simples para gerenciar ferramentas com seus respectivos nomes, links, descrições e tags.
